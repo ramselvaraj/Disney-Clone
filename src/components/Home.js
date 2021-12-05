@@ -3,7 +3,6 @@ import ImgSlider from './ImgSlider';
 import Viewers from './Viewers';
 import Marvel from './Marvel';
 import Disney from './Disney';
-import Footer from './Footer';
 
 function Home() {
     return (
@@ -13,7 +12,7 @@ function Home() {
         <Viewers />
         <Marvel/>
         <Disney />
-        <Footer/>
+        
         </div>
       )
 }

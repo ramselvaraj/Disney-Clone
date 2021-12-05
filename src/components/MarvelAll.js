@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import React from "react";
-import Footer from "./Footer";
 import Movies from './movies.json'
 
 class Movie extends React.Component{

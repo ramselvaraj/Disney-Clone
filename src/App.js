@@ -15,7 +15,7 @@ import Watchlist from './components/Watchlist';
 import Login from './components/Login';
 import Player from './components/Player';
 import Movie from './components/movies.json'
-
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -30,14 +30,15 @@ function App() {
         <Route exact path = "watchlist" element={<Watchlist/>}/>
         <Route exact path = "login" element={<Login/>}/>
         //map function to load all movie links
-        {Movie.movies.marvel.map((movie,i) => (<Route exact path = {movie.href} element={<Player src = {movie.src} name = {movie.title} imdb = {movie.imdb}/>}/>))}
+        {Movie.movies.marvel.map((movie,i) => (<Route exact path = {movie.href} element={<Player src = {movie.src} name = {movie.title} imdb = {movie.imdb} plot = {movie.plot}/>}/>))}
         {Movie.movies.disney.map((movie,i) => (<Route exact path = {movie.href} element={<Player src = {movie.src} name = {movie.title} imdb = {movie.imdb}/>}/>))}
       
       </Routes>
     </Router>
     
-    </Container>
     
+    </Container>
+    <Footer/>
     </div>
   );
 }

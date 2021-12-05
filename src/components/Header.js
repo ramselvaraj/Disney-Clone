@@ -11,17 +11,23 @@ function Header() {
         alignItems: 'center',
         margin : 'auto'
     }
+    var linkStyle = {
+        margin: "1rem",
+        textDecoration: "none",
+        color: '#3391FF'
+    }
+    
     return (
         <Nav>
             <NavMenu>
-                <a href = "watchlist">
+                <a href = "watchlist" style = {linkStyle}>
                     <img id = "icon"src="/images/watchlist-icon.svg" />
                     <span>WATCHLIST</span>
                 </a>
                 <a href = "/" style = {styles}>
             <Logo src="/images/logo.svg"/>
             </a>
-                <a href = "movies">
+                <a href = "movies" style = {linkStyle}>
                     <img id = "icon"src="/images/movie-icon.svg" />
                     <span>MOVIES</span>
                 </a>
@@ -109,3 +115,4 @@ const UserImg = styled.img`
     border-radius: 50%;
     cursor: pointer;
 `
+

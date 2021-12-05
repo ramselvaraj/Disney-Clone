@@ -19,20 +19,20 @@ function ImgSlider(){
   return (
     <Carousel {...settings}>
       <Wrap>
-        <a href = "">
+        <a href = "avengers-endgame">
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
-          <h2>Movie 1</h2>
-          <p>Movie 1 Description.</p>
+          <h1>Avengers Endgame</h1>
+          <p>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins.<br/> With the help of remaining allies, the Avengers assemble once more in order to <br/>reverse Thanos' actions and restore balance to the universe..</p>
           </div>
-          <img src="/images/slider-badging.jpg" />
+          <img src="/images/endgame-slider.png" style={{height:"368px"}}/>
         </a>
       </Wrap>
 
       <Wrap>
         <a href = "wanda-vision">
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
-          <h1>Movie 2</h1>
-          <p>Movie 2 Description.</p>
+          <h1>WandaVision</h1>
+          <p>Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - <br/>two super-powered beings living their ideal suburban lives - begin to suspect<br/> that everything is not as it seems.</p>
           </div>
           <img src="/images/slider-scale.jpg" />
           
@@ -43,7 +43,7 @@ function ImgSlider(){
         <a href = "onward">
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
         <h1>Onward</h1>
-        <p>Movie 3 Description.</p>
+        <p>Two elven brothers embark on a quest to bring their father back for one day.</p>
         </div>
           <img src="/images/slider-badag.jpg"  />
         
@@ -51,12 +51,12 @@ function ImgSlider(){
       </Wrap>
 
       <Wrap>
-        <a href = "wanda-vision">
+        <a href = "black-panther">
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
-        <h1>Movie 4</h1>
-        <p>Movie 4 Description.</p>
+        <h1>Black Panther</h1>
+        <p>T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward <br/>to lead his people into a new future and must confront a challenger from his country's past.</p>
         </div>
-          <img src="/images/slider-scales.jpg"  />
+          <img src="/images/blackpanther-slider.png"  />
         
         </a>
       </Wrap>
