@@ -31,7 +31,7 @@ function App() {
         <Route exact path = "login" element={<Login/>}/>
         //map function to load all movie links
         {Movie.movies.marvel.map((movie,i) => (<Route exact path = {movie.href} element={<Player src = {movie.src} name = {movie.title} imdb = {movie.imdb} plot = {movie.plot}/>}/>))}
-        {Movie.movies.disney.map((movie,i) => (<Route exact path = {movie.href} element={<Player src = {movie.src} name = {movie.title} imdb = {movie.imdb}/>}/>))}
+        {Movie.movies.disney.map((movie,i) => (<Route exact path = {movie.href} element={<Player src = {movie.src} name = {movie.title} imdb = {movie.imdb} plot = {movie.plot}/>}/>))}
       
       </Routes>
     </Router>
