@@ -42,7 +42,7 @@ function ImgSlider(){
       <Wrap>
         <a>
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
-        <h1>Movie 3</h1>
+        <h1>Onward</h1>
         <p>Movie 3 Description.</p>
         </div>
           <img src="/images/slider-badag.jpg"  />

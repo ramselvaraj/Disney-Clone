@@ -22,7 +22,7 @@ function Footer() {
             <h7>Project Authors-</h7><br></br>
             <h7>Rushil Ranjan - PES2UG20CS288</h7><br></br>
             <h7>Ram Selvaraj - PES2UG20CS265</h7><br></br>
-            <h7>Sreehari Vyas - PES2UG20CS288</h7><br></br>
+            <h7>Sreehari Vyas - PES2UG20CS327</h7><br></br>
             </div>
         </div>
 
