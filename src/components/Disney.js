@@ -1,14 +1,32 @@
 import styled from "styled-components";
 import React from "react";
+import Movies from './movies.json'
 
+class Movie extends React.Component{
+  
+  render(){
+      return (
+            <a href={this.props.href}>
+            <img src={this.props.src} alt="" />
+            </a>
+      );
+  }
+}
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+return arr;
+}
 function Disney(){
-
+  let movies = shuffleArray(Movies.movies.disney);
 
   return (
     <Container>
       <h3>Disney PIXAR</h3>
       <Content>
-            <Wrap>  
+            {/* <Wrap>  
             <img src="https://whatsondisneyplus.com/wp-content/uploads/2021/05/sdk_logo_rendered_tt_v4_2fe14fb5-scaled.jpeg" alt="" />
             </Wrap>
             <Wrap>  
@@ -19,7 +37,8 @@ function Disney(){
             </Wrap>
             <Wrap>  
             <img src="https://hyperpix.net/wp-content/uploads/2020/05/coco-logo-font-download.jpg" alt="" />
-            </Wrap>
+            </Wrap> */}
+            {movies.slice(0,4).map((movie,i) => (<Wrap><Movie src = {movie.image} href = {movie.href}/></Wrap>))}
         </Content>
     
     </Container>

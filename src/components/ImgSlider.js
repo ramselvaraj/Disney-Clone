@@ -19,7 +19,7 @@ function ImgSlider(){
   return (
     <Carousel {...settings}>
       <Wrap>
-        <a>
+        <a href = "">
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
           <h2>Movie 1</h2>
           <p>Movie 1 Description.</p>
@@ -29,7 +29,7 @@ function ImgSlider(){
       </Wrap>
 
       <Wrap>
-        <a>
+        <a href = "wanda-vision">
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
           <h1>Movie 2</h1>
           <p>Movie 2 Description.</p>
@@ -40,7 +40,7 @@ function ImgSlider(){
       </Wrap>
 
       <Wrap>
-        <a>
+        <a href = "onward">
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
         <h1>Onward</h1>
         <p>Movie 3 Description.</p>
@@ -51,7 +51,7 @@ function ImgSlider(){
       </Wrap>
 
       <Wrap>
-        <a>
+        <a href = "wanda-vision">
           <div style = {{color: "white",position: "absolute",top: "2px",left:"16px"}}>
         <h1>Movie 4</h1>
         <p>Movie 4 Description.</p>

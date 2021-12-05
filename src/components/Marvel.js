@@ -1,42 +1,35 @@
 import styled from "styled-components";
 import React from "react";
-
+import Movies from './movies.json'
 class Movie extends React.Component{
   
   render(){
       return (
-            <a href={this.props.href}>
-            <img src={this.props.src} alt="" />
+            <a href={this.props.href} >
+               <img src={this.props.src} alt="" />
             </a>
       );
   }
 }
+
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+return arr;
+}
+
 function Marvel(){
-
-
+    let movies = shuffleArray(Movies.movies.marvel);
+    
 return (
     <Container>
       <h3>Marvel</h3>
       <Content>
-            <Wrap>  
-            <Movie src = "https://i.gadgets360cdn.com/large/spider_man_3_title_no_way_home_1614231386878.jpg?downsize=950:*" 
-                  href = "spiderman-no-way-home"/>
-            </Wrap>
-            <Wrap>  
-              <Movie src = "https://i0.wp.com/lylesmoviefiles.com/wp-content/uploads/2019/07/the-falcon-and-the-winter-soldier-title-logo.jpg?ssl=1" 
-                  href = "the-falcon-and-the-winter-soldier"/>
-            </Wrap>
-            <Wrap>  
-            <Movie src = "https://www.dafont.com/forum/attach/orig/8/8/885399.jpg" 
-                  href = "wanda-vision"/>
-            </Wrap>
-            <Wrap>  
-            <Movie src = "https://i1.wp.com/marvelstudiosnews.com/wp-content/uploads/2018/12/Avengers-Endgame-Alt-logo.png" 
-                  href = "avengers-endgame"/>
-            </Wrap>
-        </Content>
-    
-    </Container>
+          {movies.slice(0,4).map((movie,i) => (<Wrap><Movie imdb = {movie.imdb} src = {movie.image} href = {movie.href} /></Wrap>))}
+      </Content>
+     </Container>
   );
 };
 

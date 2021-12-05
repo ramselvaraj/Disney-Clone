@@ -1,12 +1,14 @@
 import React from 'react'
-import Disney from './Disney';
-import Marvel from './Marvel';
+import DisneyAll from './DisneyAll'
+import MarvelAll from './MarvelAll'
+import Footer from './Footer'
 
 function Movies() {
     return (
         <div>
-        <Marvel/>
-        <Disney/>
+        <MarvelAll/>
+        <DisneyAll/>
+        <Footer/>
         </div>
       )
 }

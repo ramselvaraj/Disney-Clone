@@ -9,7 +9,6 @@ function Footer() {
         marginTop: "1rem",
         padding: "1rem",
         backgroundColor: "black",
-        position:"absolute",
         bottom: "0",
         left: "0",
         width: "100%",

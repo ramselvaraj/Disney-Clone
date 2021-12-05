@@ -12,12 +12,7 @@ function Header() {
         margin : 'auto'
     }
     return (
-        
-        
         <Nav>
-            
-            
-            
             <NavMenu>
                 <a href = "watchlist">
                     <img id = "icon"src="/images/watchlist-icon.svg" />
@@ -30,7 +25,9 @@ function Header() {
                     <img id = "icon"src="/images/movie-icon.svg" />
                     <span>MOVIES</span>
                 </a>
+                <a href = "http://localhost:9999/" target = "_blank">
                 <UserImg src="/images/user.png"/>
+                </a>
             </NavMenu>
             
         </Nav>

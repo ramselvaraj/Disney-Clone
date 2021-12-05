@@ -1,7 +1,18 @@
 import styled from "styled-components";
 import React from "react";
 import Footer from "./Footer";
+import Movies from './movies.json'
 
+class Movie extends React.Component{
+  
+  render(){
+      return (
+            <a href={this.props.href}>
+            <img src={this.props.src} alt="" />
+            </a>
+      );
+  }
+}
 function MarvelAll(){
 
 
@@ -9,7 +20,7 @@ function MarvelAll(){
     <Container>
       <h3>All Marvel Movies</h3>
       <Content>
-            <Wrap>  
+            {/* <Wrap>  
             <img src="https://i.gadgets360cdn.com/large/spider_man_3_title_no_way_home_1614231386878.jpg?downsize=950:*" alt="" />
             </Wrap>
             <Wrap>  
@@ -32,10 +43,11 @@ function MarvelAll(){
             </Wrap>
             <Wrap>  
             <img src="https://i1.wp.com/marvelstudiosnews.com/wp-content/uploads/2018/12/Avengers-Endgame-Alt-logo.png" alt="" />
-            </Wrap>
+            </Wrap> */}
+            {Movies.movies.marvel.map((movie,i) => (<Wrap><Movie src = {movie.image} href = {movie.href}/></Wrap>))}
             
         </Content>
-      <Footer/>
+      
     </Container>
   );
 };

@@ -1,7 +1,17 @@
 import styled from "styled-components";
 import React from "react";
 import Footer from "./Footer";
-
+import Movies from './movies.json'
+class Movie extends React.Component{
+  
+  render(){
+      return (
+            <a href={this.props.href}>
+            <img src={this.props.src} alt="" />
+            </a>
+      );
+  }
+}
 function DisneyAll(){
 
 
@@ -9,7 +19,7 @@ function DisneyAll(){
     <Container>
       <h3>All Disney PIXAR Movies</h3>
       <Content>
-            <Wrap>  
+            {/* <Wrap>  
             <img src="https://whatsondisneyplus.com/wp-content/uploads/2021/05/sdk_logo_rendered_tt_v4_2fe14fb5-scaled.jpeg" alt="" />
             </Wrap>
             <Wrap>  
@@ -32,9 +42,10 @@ function DisneyAll(){
             </Wrap>
             <Wrap>  
             <img src="https://hyperpix.net/wp-content/uploads/2020/05/coco-logo-font-download.jpg" alt="" />
-            </Wrap>
+            </Wrap> */}
+          {Movies.movies.disney.map((movie,i) => (<Wrap><Movie src = {movie.image} href = {movie.href}/></Wrap>))}
         </Content>
-        <Footer/>
+       
     </Container>
   );
 };

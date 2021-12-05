@@ -1,0 +1,109 @@
+{   "movies": 
+    { "marvel" : [
+        {
+            "title": "Spiderman - No Way Home",
+            "imdb": 8.4,
+            "src": "https://www.youtube.com/embed/JfVOs4VSpmA",
+            "href": "spiderman-no-way-home",
+            "image": "https://i.gadgets360cdn.com/large/spider_man_3_title_no_way_home_1614231386878.jpg?downsize=950:*"
+        },
+        {
+            "title": "The Falcon And The Winter Soldier",
+            "imdb": 8.8,
+            "src": "https://www.youtube.com/embed/IWBsDaFWyTE",
+            "href": "the-falcon-and-the-winter-soldier",
+            "image": "https://i0.wp.com/lylesmoviefiles.com/wp-content/uploads/2019/07/the-falcon-and-the-winter-soldier-title-logo.jpg?ssl=1"
+        },
+        {
+            "title": "WandaVision",
+            "imdb": 7.6,
+            "src": "https://www.youtube.com/embed/sj9J2ecsSpo",
+            "href": "wanda-vision",
+            "image": "https://www.dafont.com/forum/attach/orig/8/8/885399.jpg"
+        },
+        {
+            "title": "Avengers - Endgame",
+            "imdb": 9.1,
+            "src": "https://www.youtube.com/embed/TcMBFSGVi1c",
+            "href": "avengers-endgame",
+            "image": "https://i1.wp.com/marvelstudiosnews.com/wp-content/uploads/2018/12/Avengers-Endgame-Alt-logo.png"
+        },
+        {
+            "title": "Avengers - Infinity War",
+            "imdb": 9.3,
+            "src":"https://www.youtube.com/embed/6ZfuNTqbHE8?controls=0",
+            "href": "avengers-infinity-war",
+            "image": "https://movietalkexpress.files.wordpress.com/2017/11/avengers-infinity-war-updated-logo.jpg"
+        },
+        {
+            "title": "Black Panther",
+            "imdb": 8.7,
+            "src": "https://www.youtube.com/embed/xjDjIWPwcPU",
+            "href": "black-panther",
+            "image": "https://media.comicbook.com/2016/07/black-panther-logo-191924.jpg"
+        },
+        {
+            "title": "Iron Man",
+            "imdb": 8.8,
+            "src": "https://www.youtube.com/embed/8ugaeA-nMTc",
+            "href": "iron-man",
+            "image": "https://hyperpix.net/wp-content/uploads/2019/07/iron-man-logo-font-download-1200x679.jpg"
+        },
+        {
+            "title": "Doctor Strange",
+            "imdb": 8.3,
+            "src": "https://www.youtube.com/embed/Lt-U_t2pUHI",
+            "href": "doctor-strange",
+            "image": "https://wallpaperaccess.com/full/2948814.jpg"
+        }
+        ],
+    
+    
+        "disney": [
+            {
+                "title": "Luca",
+                "imdb": 8.1,
+                "src":"https://www.youtube.com/embed/mYfJxlgR2jw",
+                "href": "luca",
+                "image": "https://whatsondisneyplus.com/wp-content/uploads/2021/05/sdk_logo_rendered_tt_v4_2fe14fb5-scaled.jpeg"
+            },
+            {
+                "title": "Onward",
+                "imdb": 8.6,
+                "src": "https://www.youtube.com/embed/gn5QmllRCn4",
+                "href": "onward",
+                "image": "https://hyperpix.net/wp-content/uploads/2020/04/onward-logo-font-free-download-1200x675.jpg"
+            },
+            {
+                "title": "Soul",
+                "imdb": 8.3,
+                "src": "https://www.youtube.com/embed/xOsLIiBStEs",
+                "href": "soul",
+                "image": "https://www.whiskynsunshine.com/wp-content/uploads/2020/12/soul-logo-scaled.jpeg"
+            },
+            {
+                "title": "Coco",
+                "imdb": 6.2,
+                "src": "https://www.youtube.com/embed/Rvr68u6k5sI",
+                "href": "coco",
+                "image": "https://hyperpix.net/wp-content/uploads/2020/05/coco-logo-font-download.jpg"
+            },
+            {
+                "title": "Big Hero 6",
+                "imdb": 9.2,
+                "src": "https://www.youtube.com/embed/d2S8D_SCAJY",
+                "href": "big-hero-6",
+                "image": "https://i.pinimg.com/originals/d1/a9/6f/d1a96fbdd8cf87191eb7bdf8cd24cc84.png"
+            },
+            {
+                "title": "Wall-E",
+                "imdb": 9.6,
+                "src": "https://www.youtube.com/embed/CZ1CATNbXg0",
+                "href": "wall-e",
+                "image": "https://i.pinimg.com/originals/c9/cc/c3/c9ccc3ade8fa30f30c1d4785847ca2fc.jpg"
+            }
+        ]
+        
+    
+}
+}

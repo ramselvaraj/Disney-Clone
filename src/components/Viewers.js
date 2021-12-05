@@ -5,7 +5,7 @@ function Viewers() {
   return (
     <Container>
       <Wrap>
-        <a href = "disney">
+        <a href = "disney-pixar">
         <img src="/images/viewers-disney.png" alt="" />
         <video autoPlay={true} loop={true} playsInline={true}>
           <source src="/videos/disney.mp4" type="video/mp4" />
@@ -13,7 +13,7 @@ function Viewers() {
         </a>
       </Wrap>
       <Wrap>
-        <a href = "pixar">
+        <a href = "disney-pixar">
       <img src="/images/viewers-pixar.png" alt="" />
         <video autoPlay={true} loop={true} playsInline={true}>
           <source src="/videos/pixar.mp4" type="video/mp4" />
