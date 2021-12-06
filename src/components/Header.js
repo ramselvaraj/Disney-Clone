@@ -20,9 +20,9 @@ function Header() {
     return (
         <Nav>
             <NavMenu>
-                <a href = "watchlist" style = {linkStyle}>
-                    <img id = "icon"src="/images/watchlist-icon.svg" />
-                    <span>WATCHLIST</span>
+                <a href = "/" style = {linkStyle}>
+                    <img id = "icon"src="/images/home-icon.svg" />
+                    <span>HOME</span>
                 </a>
                 <a href = "/" style = {styles}>
             <Logo src="/images/logo.svg"/>
@@ -93,7 +93,7 @@ const NavMenu = styled.div`
                 bottom: -6px;
                 opacity: 0;
                 transform-origin: left center;
-                transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+                transition: all 250ms;
                 transform: scaleX(0);
             }
         }
@@ -110,8 +110,8 @@ const NavMenu = styled.div`
 `
 
 const UserImg = styled.img`
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32x;
     border-radius: 50%;
     cursor: pointer;
 `

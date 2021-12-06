@@ -16,6 +16,8 @@ import Login from './components/Login';
 import Player from './components/Player';
 import Movie from './components/movies.json'
 import Footer from './components/Footer';
+import Placeholder from './components/Placeholder'
+
 function App() {
   return (
     <div className="App">
@@ -32,7 +34,8 @@ function App() {
         //map function to load all movie links
         {Movie.movies.marvel.map((movie,i) => (<Route exact path = {movie.href} element={<Player src = {movie.src} name = {movie.title} imdb = {movie.imdb} plot = {movie.plot}/>}/>))}
         {Movie.movies.disney.map((movie,i) => (<Route exact path = {movie.href} element={<Player src = {movie.src} name = {movie.title} imdb = {movie.imdb} plot = {movie.plot}/>}/>))}
-      
+        <Route exact path = "starwars" element ={<Placeholder/>}/>
+        <Route exact path = "natgeo" element ={<Placeholder/>}/>
       </Routes>
     </Router>
     

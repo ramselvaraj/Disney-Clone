@@ -19,30 +19,6 @@ function MarvelAll(){
     <Container>
       <h3>All Marvel Movies</h3>
       <Content>
-            {/* <Wrap>  
-            <img src="https://i.gadgets360cdn.com/large/spider_man_3_title_no_way_home_1614231386878.jpg?downsize=950:*" alt="" />
-            </Wrap>
-            <Wrap>  
-            <img src="https://i0.wp.com/lylesmoviefiles.com/wp-content/uploads/2019/07/the-falcon-and-the-winter-soldier-title-logo.jpg?ssl=1" alt="" />
-            </Wrap>
-            <Wrap>  
-            <img src="https://www.dafont.com/forum/attach/orig/8/8/885399.jpg" alt="" />
-            </Wrap>
-            <Wrap>  
-            <img src="https://i1.wp.com/marvelstudiosnews.com/wp-content/uploads/2018/12/Avengers-Endgame-Alt-logo.png" alt="" />
-            </Wrap>
-            <Wrap>  
-            <img src="https://i.gadgets360cdn.com/large/spider_man_3_title_no_way_home_1614231386878.jpg?downsize=950:*" alt="" />
-            </Wrap>
-            <Wrap>  
-            <img src="https://i0.wp.com/lylesmoviefiles.com/wp-content/uploads/2019/07/the-falcon-and-the-winter-soldier-title-logo.jpg?ssl=1" alt="" />
-            </Wrap>
-            <Wrap>  
-            <img src="https://www.dafont.com/forum/attach/orig/8/8/885399.jpg" alt="" />
-            </Wrap>
-            <Wrap>  
-            <img src="https://i1.wp.com/marvelstudiosnews.com/wp-content/uploads/2018/12/Avengers-Endgame-Alt-logo.png" alt="" />
-            </Wrap> */}
             {Movies.movies.marvel.map((movie,i) => (<Wrap><Movie src = {movie.image} href = {movie.href}/></Wrap>))}
             
         </Content>
