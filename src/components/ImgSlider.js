@@ -24,7 +24,7 @@ function ImgSlider(){
           <h1>Avengers Endgame</h1>
           <p>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins.<br/> With the help of remaining allies, the Avengers assemble once more in order to <br/>reverse Thanos' actions and restore balance to the universe..</p>
           </div>
-          <img src="/images/endgame-slider.png" style={{height:"368px"}}/>
+          <img src="/images/endgame-slider.png" />
         </a>
       </Wrap>
 

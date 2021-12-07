@@ -31,7 +31,7 @@ function Header() {
                     <img id = "icon"src="/images/movie-icon.svg" />
                     <span>MOVIES</span>
                 </a>
-                <a href = "http://localhost:9999/" target = "_blank">
+                <a href = "http://localhost:9999/" target = "_self">
                 <UserImg src="/images/user.png"/>
                 </a>
             </NavMenu>
